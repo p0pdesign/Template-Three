@@ -65,7 +65,6 @@ ul {
 @media (min-width: 1200px) {
     .container {
         width: 1170px;
-        grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
     }
 }
 /* ------------ XX-Large devices (larger desktops, 1400px and up) -------------- */
@@ -74,7 +73,6 @@ ul {
         width: 1370px;
     }
 }
-
 .main-title {
     width: fit-content;
     margin: 0 auto 60px;
@@ -333,7 +331,7 @@ ul {
 /* -------------------------------- ARTICLES ---------------------------------------- */
 .articles .container {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
     gap: 40px;
 }
 .articles .box {
@@ -442,8 +440,8 @@ ul {
 /* -------------------------------- Features ---------------------------------------- */
 .features .container {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(310px, 1fr));
-    gap: 100px;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 40px;
 }
 .features .card {
     max-width: 100%;
@@ -552,7 +550,7 @@ ul {
 /* -------------------------------- TESTIMONIALS ---------------------------------------- */
 .testi .container {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     gap: 40px;
 }
 .testi .testi-card {
@@ -701,7 +699,7 @@ ul {
 /* -------------------------------- SERVICES ---------------------------------------- */
 .services .container {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     gap: 40px;
     counter-reset: count;
 }
@@ -1004,8 +1002,8 @@ ul {
 /* -------------------------------- Pricing ---------------------------------------- */
 .pricing .container {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(330px, 1fr));
-    gap: 30px;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 40px;
     padding: 100px 0;
 }
 .pricing .container .plans {
@@ -1169,8 +1167,8 @@ ul {
 }
 .stats .container {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-    gap: 30px;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 40px;
     margin: 60px auto;
 }
 .stats .container .box {
